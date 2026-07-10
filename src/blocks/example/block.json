@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "vue-gutenberg/example",
+  "title": "Vue Example Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example Gutenberg block whose editor UI is a Vue 3 component.",
+  "attributes": {
+    "message": { "type": "string", "default": "Hello from Vue" },
+    "count": { "type": "number", "default": 0 }
+  },
+  "editorScript": "file:./index.js"
+}

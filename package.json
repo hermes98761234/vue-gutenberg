@@ -1,0 +1,23 @@
+{
+  "name": "vue-gutenberg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Write Gutenberg block editor UIs with Vue 3",
+  "scripts": {
+    "build": "vite build && cp src/blocks/example/block.json assets/index.asset.php build/",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "jsdom": "^26.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.3.0",
+    "vitest": "^3.1.0"
+  }
+}
